@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(241, 238, 238, 0.705);
+}
+
+.box {
+  position: relative;
+  height: 100vh;
+}
+
+.box-content {
+  position: absolute;
+  left: 50%;
+  top: 54%;
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+::placeholder {
+  font-weight: 700;
+}
+
+#togglePassword {
+  cursor: pointer;
+}
